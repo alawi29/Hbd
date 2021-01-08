@@ -5,7 +5,15 @@
 <!--[if gt IE 8]> <html> <![endif]-->
 <!--[if !IE]><!--><html lang="en"><!-- <![endif]-->
 <head>
-	<title><marquee>Selamat Ulang Tahun Arsya.Dz</marquee></title>
+	<script language='JavaScript'>
+var txt="Selamat Ulang Tahun Arsya. Dz";
+var speed=300;
+var refresh=null;
+function action() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresh=setTimeout("action()",speed);}action();
+</script>
+	<!--<title><marquee>Selamat Ulang Tahun Arsya.Dz</marquee></title>-->
 	<meta charset="UTF-8" />
 	<meta name="description" content="Happy Birthday">
 	<meta name="robots" content="index, follow" />
